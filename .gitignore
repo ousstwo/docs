@@ -1,0 +1,27 @@
+# Node modules
+/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache
+/.npm/
+.npm-cache/
+.npm/
+pnpm-lock.yaml
+
+# Build output
+/dist/
+/build/
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# OS & editor garbage
+.DS_Store
+Thumbs.db
+.vscode/
