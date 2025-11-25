@@ -18,7 +18,9 @@
             "pages": [
               "index",
               "quickstart",
-              "development"
+              "development",
+              "review-learning",
+              "keyboard-shortcuts"
             ]
           }
         ]
@@ -55,12 +57,6 @@
       "label": "Website",
       "href": "https://qcmprepa.com"
     }
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view"
-    ]
   },
   "footer": {
     "socials": {}
