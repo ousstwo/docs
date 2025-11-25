@@ -14,13 +14,20 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Overview",
+            "group": "Aperçu",
             "pages": [
               "index",
               "quickstart",
               "development",
               "review-learning",
               "keyboard-shortcuts"
+            ]
+          },
+          {
+            "group": "Légal",
+            "pages": [
+              "terms",
+              "privacy-policy"
             ]
           }
         ]
@@ -29,7 +36,7 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Website",
+          "anchor": "Site web",
           "href": "https://qcmprepa.com",
           "icon": "globe"
         },
@@ -54,7 +61,7 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Website",
+      "label": "Site web",
       "href": "https://qcmprepa.com"
     }
   },

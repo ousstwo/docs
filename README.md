@@ -1,19 +1,19 @@
-# Documentation workspace
+# Espace de documentation
 
-This repo is a clean slate for your docs. Everything currently in the `*.mdx` files is placeholder copy so you can swap in your own content and structure.
+Ce dépôt contient la documentation de qcmprepa. Les pages `*.mdx` sont prêtes à être éditées pour refléter votre contenu.
 
-## Local preview
+## Prévisualisation locale
 
-1. Install the [Mintlify CLI](https://www.npmjs.com/package/mint): `npm i -g mint`
-2. From the folder containing `docs.json`, run: `mint dev`
-3. Open `http://localhost:3000` to see your changes as you edit.
+1. Installez la [CLI Mintlify](https://www.npmjs.com/package/mint) : `npm i -g mint`
+2. Depuis le dossier contenant `docs.json`, lancez : `mint dev`
+3. Ouvrez `http://localhost:3000` pour voir vos modifications en direct.
 
-## Adding content
+## Ajouter du contenu
 
-- Pages live next to `docs.json` (for example `index.mdx`, `quickstart.mdx`, `development.mdx`).
-- Update navigation and brand details in `docs.json` to match your product.
-- Add or remove MDX files as you grow the docs; keep `navigation.tabs` in sync.
+- Les pages se trouvent au même niveau que `docs.json` (par exemple `index.mdx`, `quickstart.mdx`, `development.mdx`).
+- Mettez à jour la navigation et le branding dans `docs.json` pour refléter votre produit.
+- Ajoutez ou supprimez des fichiers MDX selon vos besoins ; gardez `navigation.tabs` synchronisé.
 
-## Deploying
+## Déploiement
 
-Push changes to your default branch and deploy with your hosting setup. If you're using the Mintlify GitHub app, deployments will follow your Git workflow automatically.
+Poussez vos changements sur la branche par défaut et déployez avec votre solution d’hébergement. Si vous utilisez l’app GitHub Mintlify, les déploiements suivent votre workflow Git automatiquement.
