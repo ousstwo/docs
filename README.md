@@ -1,43 +1,19 @@
-# Mintlify Starter Kit
+# Documentation workspace
 
-Use the starter kit to get your docs deployed and ready to customize.
+This repo is a clean slate for your docs. Everything currently in the `*.mdx` files is placeholder copy so you can swap in your own content and structure.
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+## Local preview
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
+1. Install the [Mintlify CLI](https://www.npmjs.com/package/mint): `npm i -g mint`
+2. From the folder containing `docs.json`, run: `mint dev`
+3. Open `http://localhost:3000` to see your changes as you edit.
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+## Adding content
 
-## Development
+- Pages live next to `docs.json` (for example `index.mdx`, `quickstart.mdx`, `development.mdx`).
+- Update navigation and brand details in `docs.json` to match your product.
+- Add or remove MDX files as you grow the docs; keep `navigation.tabs` in sync.
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
+## Deploying
 
-```
-npm i -g mint
-```
-
-Run the following command at the root of your documentation, where your `docs.json` is located:
-
-```
-mint dev
-```
-
-View your local preview at `http://localhost:3000`.
-
-## Publishing changes
-
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
-
-## Need help?
-
-### Troubleshooting
-
-- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
-
-### Resources
-- [Mintlify documentation](https://mintlify.com/docs)
+Push changes to your default branch and deploy with your hosting setup. If you're using the Mintlify GitHub app, deployments will follow your Git workflow automatically.
